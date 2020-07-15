@@ -1,10 +1,9 @@
 <?php
 
-include 'calculerulatrice/calculer.php';
+include 'calculatrice/calculer.php';
 
-use PHPUnit\Framework\TestCase;
 
-class Test extends TestCase
+class Test
 {
     private $calculer;
 
