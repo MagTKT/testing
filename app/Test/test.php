@@ -8,7 +8,7 @@ class Test
     private $calculer;
 
     public function setUp() {
-        $this->calculer = new calculeruler(6, 2);
+        $this->calculer = new calculer(6, 2);
     }
 
     public function testAdd(){
