@@ -3,12 +3,12 @@ namespace App;
 
 class User
 {
-  public $mail = '';
-  public $prenom = '';
-  public $nom = '';
-  public $age = 0;
+  public $mail;
+  public $prenom;
+  public $nom;
+  public $age;
   
-  public function __construct(string $mail, string $prenom, string $nom, int $age)
+  public function __construct(string $mail = '', string $nom = '', string $prenom = '', int $age = 0)
     {
         $this->mail = $mail;
         $this->prenom = $prenom;
